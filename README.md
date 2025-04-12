@@ -6,6 +6,7 @@ The aim of linear block coding is to detect and correct errors during digital da
 Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 
 ## Program
+~~~
 import numpy as np
 
 pb = [] # Parity matrix
@@ -109,11 +110,17 @@ add = err + rc
 add = np.array(add)
 add1 = add % 2
 print(f"The correct codeword is : " + " " .join(map(str,add1)))
-## ouput
+~~~
+# Manual calculation:
+![WhatsApp Image 2025-04-12 at 4 01 06 PM](https://github.com/user-attachments/assets/197f3d03-062b-4479-a836-751f63082d46)
+![WhatsApp Image 2025-04-12 at 4 01 06 PM (1)](https://github.com/user-attachments/assets/af4ef5d0-805b-42e4-8181-f4fff5dacb41)
 
-![WhatsApp Image 2025-04-12 at 16 01 07_4c8eb209](https://github.com/user-attachments/assets/9a68b5f1-7ed7-4f5c-a8fe-3deaabc497e2)
 
-![WhatsApp Image 2025-04-12 at 16 01 07_aa96423e](https://github.com/user-attachments/assets/b8ff6c96-0178-4084-ae14-c8ea99a7f5d4)
+## output
+
+![image](https://github.com/user-attachments/assets/36929010-b12e-472c-b88a-b7fa697ddff6)
+
+![image](https://github.com/user-attachments/assets/c7efa0c5-7656-4885-b0da-a9973d4c6808)
 
 
 ## Result
